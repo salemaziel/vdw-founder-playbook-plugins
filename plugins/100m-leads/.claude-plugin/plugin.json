@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "100m-leads",
+  "displayName": "$100M Leads",
+  "version": "0.1.0",
+  "description": "Builds lead generation systems using Alex Hormozi's Core Four framework (warm outreach, content, cold outreach, paid ads), lead magnets, and Rule of 100. Use when designing customer acquisition, scaling advertising, choosing marketing channels for revenue stage, building referral programs, or fixing low lead flow. Covers lead magnets, LTGP:CAC math, More Better New scaling, and Lead Getters (referrals, employees, agencies, affiliates).",
+  "author": {
+    "name": "Via Del Web",
+    "email": "claude@viadelweb.cloud"
+  },
+  "homepage": "https://github.com/salemaziel/vdw-founder-playbook-plugins/tree/main/plugins/100m-leads",
+  "repository": "https://github.com/salemaziel/vdw-founder-playbook-plugins",
+  "license": "MIT",
+  "keywords": [
+    "founder",
+    "business",
+    "100m-leads"
+  ]
+}

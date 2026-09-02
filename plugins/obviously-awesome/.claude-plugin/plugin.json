@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "obviously-awesome",
+  "displayName": "Obviously Awesome",
+  "version": "0.1.0",
+  "description": "April Dunford's 10-step positioning methodology for B2B tech products. Use when customers don't understand the product, sales cycles are long because reps must \"explain it,\" prospects compare you to wrong competitors, or you face price pressure despite a good product. Covers competitive alternatives, unique attributes, value themes, target market characteristics, market category (Head to Head / Big Fish Small Pond / New Game), and trend layering.",
+  "author": {
+    "name": "Via Del Web",
+    "email": "claude@viadelweb.cloud"
+  },
+  "homepage": "https://github.com/salemaziel/vdw-founder-playbook-plugins/tree/main/plugins/obviously-awesome",
+  "repository": "https://github.com/salemaziel/vdw-founder-playbook-plugins",
+  "license": "MIT",
+  "keywords": [
+    "founder",
+    "business",
+    "obviously-awesome"
+  ]
+}

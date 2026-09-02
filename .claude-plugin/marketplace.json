@@ -1,0 +1,107 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "vdw-founder-playbook",
+  "description": "Founder playbooks packaged as independent Via Del Web plugins.",
+  "owner": {
+    "name": "Via Del Web",
+    "email": "claude@viadelweb.cloud"
+  },
+  "plugins": [
+    {
+      "name": "diagnose",
+      "source": "./plugins/diagnose",
+      "description": "Startup diagnostic router. Use FIRST when a founder doesn't know where to start, has multiple overlapping problems, or asks a vague question like 'what's wrong with my startup', 'why aren't people buying', 'what should I focus on', 'where do I even begin', 'nothing is working'. Routes to the right framework from the 15 available skills — or tells you when no framework fits and you just need to go talk to people. This is the entry point. Use it before reaching for any specific skill.",
+      "version": "0.1.0"
+    },
+    {
+      "name": "mom-test",
+      "source": "./plugins/mom-test",
+      "description": "Validates business ideas through customer conversations using Rob Fitzpatrick's Mom Test framework. Use when planning user interviews, getting product feedback, validating ideas, designing discovery questions, or extracting honest signal from biased customer responses. Covers good vs bad questions, deflecting compliments, anchoring fluff, pressing for commitment, and customer slicing.",
+      "version": "0.1.0"
+    },
+    {
+      "name": "four-steps",
+      "source": "./plugins/four-steps",
+      "description": "Applies Steve Blank's Customer Development methodology from The Four Steps to the Epiphany. Use when a startup is searching for customers and a business model before scaling. Covers Customer Discovery, Customer Validation, Customer Creation, and Company Building. Triggers include 'we built it but no one's buying', 'should we hire salespeople yet', 'how do we find our first customers', 'we're burning cash and sales aren't scaling', 'are we in a new or existing market', 'when do we scale'. NOT for companies that have already crossed the chasm into mainstream (use Crossing the Chasm instead), not for optimizing an existing sales funnel, not for product development methodology (this is its companion, not replacement).",
+      "version": "0.1.0"
+    },
+    {
+      "name": "lean-startup",
+      "source": "./plugins/lean-startup",
+      "description": "Applies Eric Ries's Lean Startup methodology for building products under extreme uncertainty. Use when iterating toward product/market fit, designing MVPs, deciding whether to pivot or persevere, setting up actionable metrics, or accelerating the Build-Measure-Learn loop. Triggers include 'how do we test this idea fast', 'what should our MVP look like', 'our metrics look good but we're not growing', 'should we pivot', 'we're building features no one uses', 'how do we measure validated learning', 'vanity metrics vs real metrics', 'how to do innovation accounting'. NOT for companies with proven product/market fit scaling a known playbook (use Crossing the Chasm), not for determining Market Type (use Four Steps), not for sales methodology (use SPIN Selling), not for pricing strategy (use Monetizing Innovation).",
+      "version": "0.1.0"
+    },
+    {
+      "name": "obviously-awesome",
+      "source": "./plugins/obviously-awesome",
+      "description": "April Dunford's 10-step positioning methodology for B2B tech products. Use when customers don't understand the product, sales cycles are long because reps must \"explain it,\" prospects compare you to wrong competitors, or you face price pressure despite a good product. Covers competitive alternatives, unique attributes, value themes, target market characteristics, market category (Head to Head / Big Fish Small Pond / New Game), and trend layering.",
+      "version": "0.1.0"
+    },
+    {
+      "name": "crossing-the-chasm",
+      "source": "./plugins/crossing-the-chasm",
+      "description": "Applies Geoffrey Moore's chasm-crossing strategy for B2B tech products moving from visionary early adopters to pragmatist mainstream. Use when a product has early traction but stalls before mainstream adoption, when planning a beachhead/niche strategy, when designing whole-product offerings, when positioning against established competitors, or when scaling from innovator usage to industry standard. Triggers include 'stuck between early adopters and mainstream', 'we need a beachhead', 'pragmatist customers won't buy', 'how do we go from 10 to 1000 customers'. NOT for PLG/freemium SaaS (Slack, Notion, Cursor), pure consumer apps, two-sided marketplaces, or AI-native products with bottoms-up viral adoption - their dynamics break the visionary-to-pragmatist sequence.",
+      "version": "0.1.0"
+    },
+    {
+      "name": "blue-ocean-strategy",
+      "source": "./plugins/blue-ocean-strategy",
+      "description": "Frameworks from Kim & Mauborgne for creating uncontested market space and making competition irrelevant. Use when reframing competitive strategy, escaping commoditization, designing a new category, or applying Strategy Canvas, ERRC, Six Paths, Three Tiers of Noncustomers, Buyer Utility Map, or Strategic Sequence. Includes selection-bias caveats and inline decline notes for iconic cases that later collapsed.",
+      "version": "0.1.0"
+    },
+    {
+      "name": "monetizing-innovation",
+      "source": "./plugins/monetizing-innovation",
+      "description": "Designs products around price using the 9 rules from Ramanujam and Tacke - WTP conversations, needs-based segmentation, Good/Better/Best configuration, monetization models, behavioral pricing, and price integrity. Use when designing new products, validating pricing for SaaS/B2B/B2C launches, choosing between subscription/usage/freemium models, fixing post-launch sales below plan, diagnosing failed launches as Feature Shock/Minivation/Hidden Gem/Undead, or when product teams say 'let's price it later'. Not for pure commodities or cost-plus regulated environments.",
+      "version": "0.1.0"
+    },
+    {
+      "name": "spin-selling",
+      "source": "./plugins/spin-selling",
+      "description": "Applies Neil Rackham's SPIN methodology (Situation/Problem/Implication/Need-payoff questions) to major B2B sales. Use for complex multi-call sales cycles, enterprise deals where the customer must justify the decision to others, when objections are mounting, when calls end in vague continuations instead of advances, when traditional closing techniques are backfiring on large deals, or when designing discovery-call structure. Triggers include 'my deal isn't closing', 'too many objections', 'B2B sales coaching', 'discovery call structure', 'stuck in the middle of the sale'. Not for transactional sub-$50 sales, pure consumer impulse, or PLG self-serve products.",
+      "version": "0.1.0"
+    },
+    {
+      "name": "100m-offers",
+      "source": "./plugins/100m-offers",
+      "description": "Designs irresistible Grand Slam Offers using Alex Hormozi's value equation, obstacle-solution mapping, value-cost trim/stack, and offer-naming patterns. Use when fixing low conversion rates, packaging products, pricing services, designing high-converting offers, or when prospects browse but don't buy. Covers value stacking, guarantees, scarcity, urgency, and pricing psychology for validated markets.",
+      "version": "0.1.0"
+    },
+    {
+      "name": "100m-leads",
+      "source": "./plugins/100m-leads",
+      "description": "Builds lead generation systems using Alex Hormozi's Core Four framework (warm outreach, content, cold outreach, paid ads), lead magnets, and Rule of 100. Use when designing customer acquisition, scaling advertising, choosing marketing channels for revenue stage, building referral programs, or fixing low lead flow. Covers lead magnets, LTGP:CAC math, More Better New scaling, and Lead Getters (referrals, employees, agencies, affiliates).",
+      "version": "0.1.0"
+    },
+    {
+      "name": "money-models",
+      "source": "./plugins/money-models",
+      "description": "Designs a deliberate sequence of offers (attraction, upsell, downsell, continuity) so a new customer generates enough cash within ~30 days to fund acquiring the next one - Alex Hormozi's client-financed acquisition. Use when customers buy once and never again, when CAC eats all the profit, when you can't afford to advertise profitably, when the business grows but cash shrinks, when you sell one product at one price, when deciding what to sell first or next, or when structuring upsells, downsells, payment plans, trials, and continuity. Covers the 30-day payback rule, attraction/upsell/downsell/continuity offer types, and cash-flow sequencing for validated markets.",
+      "version": "0.1.0"
+    },
+    {
+      "name": "influence",
+      "source": "./plugins/influence",
+      "description": "Cialdini's seven principles of compliance (the classic six — reciprocation, commitment-consistency, social proof, liking, authority, scarcity — plus Unity, added 2016) and Pre-Suasion. Use when crafting ethical persuasion (marketing, sales, negotiation), defending against manipulation, or designing systems that need cooperation. Includes replication-crisis caveats and known factual corrections (Bickman parking-meter numbers, Hofling modern replication, Drive Carefully condition disambiguation, Genovese myth).",
+      "version": "0.1.0"
+    },
+    {
+      "name": "traction",
+      "source": "./plugins/traction",
+      "description": "Applies the Bullseye Framework from Traction by Gabriel Weinberg and Justin Mares. Use when choosing growth channels, testing customer acquisition strategies, or deciding where to spend marketing effort. Covers all 19 traction channels with selection methodology, testing protocol, and phase-matched channel advice. Triggers include 'how do we get customers', 'which marketing channel should we use', 'we have a product but no users', 'our growth has stalled', 'should we do content marketing or paid ads', 'how do we test traction channels', 'what channels work at our stage'. NOT for product development (use Lean Startup), not for positioning/messaging (use Obviously Awesome), not for pricing (use Monetizing Innovation), not for enterprise sales methodology (use SPIN Selling).",
+      "version": "0.1.0"
+    },
+    {
+      "name": "storybrand",
+      "source": "./plugins/storybrand",
+      "description": "Applies the StoryBrand SB7 Framework from Building a StoryBrand by Donald Miller. Use when writing website copy, crafting brand messaging, creating marketing materials, building sales funnels, or designing email campaigns. The SB7 Framework positions the customer as the hero and the brand as the guide across 7 story elements. Triggers include 'how should we write our website', 'our messaging is confusing', 'customers don't understand what we do', 'how do I write a tagline', 'what should our homepage say', 'nobody reads our emails', 'how do I create a lead generator', 'our marketing isn't working but our product is good'. NOT for growth channel selection (use Traction), not for product positioning against competitors (use Obviously Awesome), not for pricing (use Monetizing Innovation).",
+      "version": "0.1.0"
+    },
+    {
+      "name": "made-to-stick",
+      "source": "./plugins/made-to-stick",
+      "description": "Applies the SUCCESs Framework from Made to Stick by Chip Heath and Dan Heath. Use when crafting messages that need to be remembered, writing pitches, creating presentations, designing training materials, telling stories that drive action, or diagnosing why a message isn't landing. The six principles (Simple, Unexpected, Concrete, Credible, Emotional, Stories) diagnose and fix communication failures. Triggers include 'how do I make this memorable', 'my pitch isn't landing', 'people forget what we told them', 'how do I tell a better story', 'our training materials are boring', 'how do I present data compellingly', 'nobody remembers our message', 'how do I get people to care about this', 'my writing is too abstract'. NOT for channel selection (use Traction), not for brand messaging structure (use StoryBrand), not for positioning (use Obviously Awesome).",
+      "version": "0.1.0"
+    }
+  ]
+}

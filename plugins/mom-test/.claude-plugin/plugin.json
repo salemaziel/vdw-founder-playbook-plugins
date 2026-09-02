@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "mom-test",
+  "displayName": "The Mom Test",
+  "version": "0.1.0",
+  "description": "Validates business ideas through customer conversations using Rob Fitzpatrick's Mom Test framework. Use when planning user interviews, getting product feedback, validating ideas, designing discovery questions, or extracting honest signal from biased customer responses. Covers good vs bad questions, deflecting compliments, anchoring fluff, pressing for commitment, and customer slicing.",
+  "author": {
+    "name": "Via Del Web",
+    "email": "claude@viadelweb.cloud"
+  },
+  "homepage": "https://github.com/salemaziel/vdw-founder-playbook-plugins/tree/main/plugins/mom-test",
+  "repository": "https://github.com/salemaziel/vdw-founder-playbook-plugins",
+  "license": "MIT",
+  "keywords": [
+    "founder",
+    "business",
+    "mom-test"
+  ]
+}

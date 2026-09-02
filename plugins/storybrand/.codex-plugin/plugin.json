@@ -1,0 +1,33 @@
+{
+  "name": "storybrand",
+  "version": "0.1.0",
+  "description": "Applies the StoryBrand SB7 Framework from Building a StoryBrand by Donald Miller. Use when writing website copy, crafting brand messaging, creating marketing materials, building sales funnels, or designing email campaigns. The SB7 Framework positions the customer as the hero and the brand as the guide across 7 story elements. Triggers include 'how should we write our website', 'our messaging is confusing', 'customers don't understand what we do', 'how do I write a tagline', 'what should our homepage say', 'nobody reads our emails', 'how do I create a lead generator', 'our marketing isn't working but our product is good'. NOT for growth channel selection (use Traction), not for product positioning against competitors (use Obviously Awesome), not for pricing (use Monetizing Innovation).",
+  "author": {
+    "name": "Via Del Web",
+    "email": "claude@viadelweb.cloud",
+    "url": "https://github.com/salemaziel"
+  },
+  "homepage": "https://github.com/salemaziel/vdw-founder-playbook-plugins/tree/main/plugins/storybrand",
+  "repository": "https://github.com/salemaziel/vdw-founder-playbook-plugins",
+  "license": "MIT",
+  "keywords": [
+    "founder",
+    "business",
+    "storybrand"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Building a StoryBrand",
+    "shortDescription": "Applies the StoryBrand SB7 Framework from Building a StoryBrand by Donald Miller. Use when writing website copy, crafting brand messaging, creating marketing m…",
+    "longDescription": "Applies the StoryBrand SB7 Framework from Building a StoryBrand by Donald Miller. Use when writing website copy, crafting brand messaging, creating marketing materials, building sales funnels, or designing email campaigns. The SB7 Framework positions the customer as the hero and the brand as the guide across 7 story elements. Triggers include 'how should we write our website', 'our messaging is confusing', 'customers don't understand what we do', 'how do I write a tagline', 'what should our homepage say', 'nobody reads our emails', 'how do I create a lead generator', 'our marketing isn't working but our product is good'. NOT for growth channel selection (use Traction), not for product positioning against competitors (use Obviously Awesome), not for pricing (use Monetizing Innovation).",
+    "developerName": "Via Del Web",
+    "category": "Business",
+    "capabilities": [
+      "Interactive"
+    ],
+    "defaultPrompt": [
+      "Use Building a StoryBrand to help with my startup.",
+      "Apply Building a StoryBrand to this business problem."
+    ]
+  }
+}

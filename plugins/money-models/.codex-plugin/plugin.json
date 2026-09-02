@@ -1,0 +1,33 @@
+{
+  "name": "money-models",
+  "version": "0.1.0",
+  "description": "Designs a deliberate sequence of offers (attraction, upsell, downsell, continuity) so a new customer generates enough cash within ~30 days to fund acquiring the next one - Alex Hormozi's client-financed acquisition. Use when customers buy once and never again, when CAC eats all the profit, when you can't afford to advertise profitably, when the business grows but cash shrinks, when you sell one product at one price, when deciding what to sell first or next, or when structuring upsells, downsells, payment plans, trials, and continuity. Covers the 30-day payback rule, attraction/upsell/downsell/continuity offer types, and cash-flow sequencing for validated markets.",
+  "author": {
+    "name": "Via Del Web",
+    "email": "claude@viadelweb.cloud",
+    "url": "https://github.com/salemaziel"
+  },
+  "homepage": "https://github.com/salemaziel/vdw-founder-playbook-plugins/tree/main/plugins/money-models",
+  "repository": "https://github.com/salemaziel/vdw-founder-playbook-plugins",
+  "license": "MIT",
+  "keywords": [
+    "founder",
+    "business",
+    "money-models"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "$100M Money Models",
+    "shortDescription": "Designs a deliberate sequence of offers (attraction, upsell, downsell, continuity) so a new customer generates enough cash within ~30 days to fund acquiring th…",
+    "longDescription": "Designs a deliberate sequence of offers (attraction, upsell, downsell, continuity) so a new customer generates enough cash within ~30 days to fund acquiring the next one - Alex Hormozi's client-financed acquisition. Use when customers buy once and never again, when CAC eats all the profit, when you can't afford to advertise profitably, when the business grows but cash shrinks, when you sell one product at one price, when deciding what to sell first or next, or when structuring upsells, downsells, payment plans, trials, and continuity. Covers the 30-day payback rule, attraction/upsell/downsell/continuity offer types, and cash-flow sequencing for validated markets.",
+    "developerName": "Via Del Web",
+    "category": "Business",
+    "capabilities": [
+      "Interactive"
+    ],
+    "defaultPrompt": [
+      "Use $100M Money Models to help with my startup.",
+      "Apply $100M Money Models to this business problem."
+    ]
+  }
+}

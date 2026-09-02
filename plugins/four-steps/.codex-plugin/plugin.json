@@ -1,0 +1,33 @@
+{
+  "name": "four-steps",
+  "version": "0.1.0",
+  "description": "Applies Steve Blank's Customer Development methodology from The Four Steps to the Epiphany. Use when a startup is searching for customers and a business model before scaling. Covers Customer Discovery, Customer Validation, Customer Creation, and Company Building. Triggers include 'we built it but no one's buying', 'should we hire salespeople yet', 'how do we find our first customers', 'we're burning cash and sales aren't scaling', 'are we in a new or existing market', 'when do we scale'. NOT for companies that have already crossed the chasm into mainstream (use Crossing the Chasm instead), not for optimizing an existing sales funnel, not for product development methodology (this is its companion, not replacement).",
+  "author": {
+    "name": "Via Del Web",
+    "email": "claude@viadelweb.cloud",
+    "url": "https://github.com/salemaziel"
+  },
+  "homepage": "https://github.com/salemaziel/vdw-founder-playbook-plugins/tree/main/plugins/four-steps",
+  "repository": "https://github.com/salemaziel/vdw-founder-playbook-plugins",
+  "license": "MIT",
+  "keywords": [
+    "founder",
+    "business",
+    "four-steps"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "The Four Steps to the Epiphany",
+    "shortDescription": "Applies Steve Blank's Customer Development methodology from The Four Steps to the Epiphany. Use when a startup is searching for customers and a business model…",
+    "longDescription": "Applies Steve Blank's Customer Development methodology from The Four Steps to the Epiphany. Use when a startup is searching for customers and a business model before scaling. Covers Customer Discovery, Customer Validation, Customer Creation, and Company Building. Triggers include 'we built it but no one's buying', 'should we hire salespeople yet', 'how do we find our first customers', 'we're burning cash and sales aren't scaling', 'are we in a new or existing market', 'when do we scale'. NOT for companies that have already crossed the chasm into mainstream (use Crossing the Chasm instead), not for optimizing an existing sales funnel, not for product development methodology (this is its companion, not replacement).",
+    "developerName": "Via Del Web",
+    "category": "Business",
+    "capabilities": [
+      "Interactive"
+    ],
+    "defaultPrompt": [
+      "Use The Four Steps to the Epiphany to help with my startup.",
+      "Apply The Four Steps to the Epiphany to this business problem."
+    ]
+  }
+}

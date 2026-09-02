@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "influence",
+  "displayName": "Influence",
+  "version": "0.1.0",
+  "description": "Cialdini's seven principles of compliance (the classic six — reciprocation, commitment-consistency, social proof, liking, authority, scarcity — plus Unity, added 2016) and Pre-Suasion. Use when crafting ethical persuasion (marketing, sales, negotiation), defending against manipulation, or designing systems that need cooperation. Includes replication-crisis caveats and known factual corrections (Bickman parking-meter numbers, Hofling modern replication, Drive Carefully condition disambiguation, Genovese myth).",
+  "author": {
+    "name": "Via Del Web",
+    "email": "claude@viadelweb.cloud"
+  },
+  "homepage": "https://github.com/salemaziel/vdw-founder-playbook-plugins/tree/main/plugins/influence",
+  "repository": "https://github.com/salemaziel/vdw-founder-playbook-plugins",
+  "license": "MIT",
+  "keywords": [
+    "founder",
+    "business",
+    "influence"
+  ]
+}

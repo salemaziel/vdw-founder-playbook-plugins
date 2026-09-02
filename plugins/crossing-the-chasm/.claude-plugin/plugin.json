@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "crossing-the-chasm",
+  "displayName": "Crossing the Chasm",
+  "version": "0.1.0",
+  "description": "Applies Geoffrey Moore's chasm-crossing strategy for B2B tech products moving from visionary early adopters to pragmatist mainstream. Use when a product has early traction but stalls before mainstream adoption, when planning a beachhead/niche strategy, when designing whole-product offerings, when positioning against established competitors, or when scaling from innovator usage to industry standard. Triggers include 'stuck between early adopters and mainstream', 'we need a beachhead', 'pragmatist customers won't buy', 'how do we go from 10 to 1000 customers'. NOT for PLG/freemium SaaS (Slack, Notion, Cursor), pure consumer apps, two-sided marketplaces, or AI-native products with bottoms-up viral adoption - their dynamics break the visionary-to-pragmatist sequence.",
+  "author": {
+    "name": "Via Del Web",
+    "email": "claude@viadelweb.cloud"
+  },
+  "homepage": "https://github.com/salemaziel/vdw-founder-playbook-plugins/tree/main/plugins/crossing-the-chasm",
+  "repository": "https://github.com/salemaziel/vdw-founder-playbook-plugins",
+  "license": "MIT",
+  "keywords": [
+    "founder",
+    "business",
+    "crossing-the-chasm"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "blue-ocean-strategy",
+  "displayName": "Blue Ocean Strategy",
+  "version": "0.1.0",
+  "description": "Frameworks from Kim & Mauborgne for creating uncontested market space and making competition irrelevant. Use when reframing competitive strategy, escaping commoditization, designing a new category, or applying Strategy Canvas, ERRC, Six Paths, Three Tiers of Noncustomers, Buyer Utility Map, or Strategic Sequence. Includes selection-bias caveats and inline decline notes for iconic cases that later collapsed.",
+  "author": {
+    "name": "Via Del Web",
+    "email": "claude@viadelweb.cloud"
+  },
+  "homepage": "https://github.com/salemaziel/vdw-founder-playbook-plugins/tree/main/plugins/blue-ocean-strategy",
+  "repository": "https://github.com/salemaziel/vdw-founder-playbook-plugins",
+  "license": "MIT",
+  "keywords": [
+    "founder",
+    "business",
+    "blue-ocean-strategy"
+  ]
+}

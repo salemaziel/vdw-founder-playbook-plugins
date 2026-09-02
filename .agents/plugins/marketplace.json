@@ -1,0 +1,200 @@
+{
+  "name": "vdw-founder-playbook",
+  "interface": {
+    "displayName": "VDW Founder Playbook"
+  },
+  "plugins": [
+    {
+      "name": "diagnose",
+      "source": {
+        "source": "local",
+        "path": "./plugins/diagnose"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Business"
+    },
+    {
+      "name": "mom-test",
+      "source": {
+        "source": "local",
+        "path": "./plugins/mom-test"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Business"
+    },
+    {
+      "name": "four-steps",
+      "source": {
+        "source": "local",
+        "path": "./plugins/four-steps"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Business"
+    },
+    {
+      "name": "lean-startup",
+      "source": {
+        "source": "local",
+        "path": "./plugins/lean-startup"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Business"
+    },
+    {
+      "name": "obviously-awesome",
+      "source": {
+        "source": "local",
+        "path": "./plugins/obviously-awesome"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Business"
+    },
+    {
+      "name": "crossing-the-chasm",
+      "source": {
+        "source": "local",
+        "path": "./plugins/crossing-the-chasm"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Business"
+    },
+    {
+      "name": "blue-ocean-strategy",
+      "source": {
+        "source": "local",
+        "path": "./plugins/blue-ocean-strategy"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Business"
+    },
+    {
+      "name": "monetizing-innovation",
+      "source": {
+        "source": "local",
+        "path": "./plugins/monetizing-innovation"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Business"
+    },
+    {
+      "name": "spin-selling",
+      "source": {
+        "source": "local",
+        "path": "./plugins/spin-selling"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Business"
+    },
+    {
+      "name": "100m-offers",
+      "source": {
+        "source": "local",
+        "path": "./plugins/100m-offers"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Business"
+    },
+    {
+      "name": "100m-leads",
+      "source": {
+        "source": "local",
+        "path": "./plugins/100m-leads"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Business"
+    },
+    {
+      "name": "money-models",
+      "source": {
+        "source": "local",
+        "path": "./plugins/money-models"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Business"
+    },
+    {
+      "name": "influence",
+      "source": {
+        "source": "local",
+        "path": "./plugins/influence"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Business"
+    },
+    {
+      "name": "traction",
+      "source": {
+        "source": "local",
+        "path": "./plugins/traction"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Business"
+    },
+    {
+      "name": "storybrand",
+      "source": {
+        "source": "local",
+        "path": "./plugins/storybrand"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Business"
+    },
+    {
+      "name": "made-to-stick",
+      "source": {
+        "source": "local",
+        "path": "./plugins/made-to-stick"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Business"
+    }
+  ]
+}

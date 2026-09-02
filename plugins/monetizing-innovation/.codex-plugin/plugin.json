@@ -1,0 +1,33 @@
+{
+  "name": "monetizing-innovation",
+  "version": "0.1.0",
+  "description": "Designs products around price using the 9 rules from Ramanujam and Tacke - WTP conversations, needs-based segmentation, Good/Better/Best configuration, monetization models, behavioral pricing, and price integrity. Use when designing new products, validating pricing for SaaS/B2B/B2C launches, choosing between subscription/usage/freemium models, fixing post-launch sales below plan, diagnosing failed launches as Feature Shock/Minivation/Hidden Gem/Undead, or when product teams say 'let's price it later'. Not for pure commodities or cost-plus regulated environments.",
+  "author": {
+    "name": "Via Del Web",
+    "email": "claude@viadelweb.cloud",
+    "url": "https://github.com/salemaziel"
+  },
+  "homepage": "https://github.com/salemaziel/vdw-founder-playbook-plugins/tree/main/plugins/monetizing-innovation",
+  "repository": "https://github.com/salemaziel/vdw-founder-playbook-plugins",
+  "license": "MIT",
+  "keywords": [
+    "founder",
+    "business",
+    "monetizing-innovation"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Monetizing Innovation",
+    "shortDescription": "Designs products around price using the 9 rules from Ramanujam and Tacke - WTP conversations, needs-based segmentation, Good/Better/Best configuration, monetiz…",
+    "longDescription": "Designs products around price using the 9 rules from Ramanujam and Tacke - WTP conversations, needs-based segmentation, Good/Better/Best configuration, monetization models, behavioral pricing, and price integrity. Use when designing new products, validating pricing for SaaS/B2B/B2C launches, choosing between subscription/usage/freemium models, fixing post-launch sales below plan, diagnosing failed launches as Feature Shock/Minivation/Hidden Gem/Undead, or when product teams say 'let's price it later'. Not for pure commodities or cost-plus regulated environments.",
+    "developerName": "Via Del Web",
+    "category": "Business",
+    "capabilities": [
+      "Interactive"
+    ],
+    "defaultPrompt": [
+      "Use Monetizing Innovation to help with my startup.",
+      "Apply Monetizing Innovation to this business problem."
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "obviously-awesome",
+  "version": "0.1.0",
+  "description": "April Dunford's 10-step positioning methodology for B2B tech products. Use when customers don't understand the product, sales cycles are long because reps must \"explain it,\" prospects compare you to wrong competitors, or you face price pressure despite a good product. Covers competitive alternatives, unique attributes, value themes, target market characteristics, market category (Head to Head / Big Fish Small Pond / New Game), and trend layering.",
+  "author": {
+    "name": "Via Del Web",
+    "email": "claude@viadelweb.cloud",
+    "url": "https://github.com/salemaziel"
+  },
+  "homepage": "https://github.com/salemaziel/vdw-founder-playbook-plugins/tree/main/plugins/obviously-awesome",
+  "repository": "https://github.com/salemaziel/vdw-founder-playbook-plugins",
+  "license": "MIT",
+  "keywords": [
+    "founder",
+    "business",
+    "obviously-awesome"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Obviously Awesome",
+    "shortDescription": "April Dunford's 10-step positioning methodology for B2B tech products. Use when customers don't understand the product, sales cycles are long because reps must…",
+    "longDescription": "April Dunford's 10-step positioning methodology for B2B tech products. Use when customers don't understand the product, sales cycles are long because reps must \"explain it,\" prospects compare you to wrong competitors, or you face price pressure despite a good product. Covers competitive alternatives, unique attributes, value themes, target market characteristics, market category (Head to Head / Big Fish Small Pond / New Game), and trend layering.",
+    "developerName": "Via Del Web",
+    "category": "Business",
+    "capabilities": [
+      "Interactive"
+    ],
+    "defaultPrompt": [
+      "Use Obviously Awesome to help with my startup.",
+      "Apply Obviously Awesome to this business problem."
+    ]
+  }
+}

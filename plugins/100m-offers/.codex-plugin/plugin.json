@@ -1,0 +1,33 @@
+{
+  "name": "100m-offers",
+  "version": "0.1.0",
+  "description": "Designs irresistible Grand Slam Offers using Alex Hormozi's value equation, obstacle-solution mapping, value-cost trim/stack, and offer-naming patterns. Use when fixing low conversion rates, packaging products, pricing services, designing high-converting offers, or when prospects browse but don't buy. Covers value stacking, guarantees, scarcity, urgency, and pricing psychology for validated markets.",
+  "author": {
+    "name": "Via Del Web",
+    "email": "claude@viadelweb.cloud",
+    "url": "https://github.com/salemaziel"
+  },
+  "homepage": "https://github.com/salemaziel/vdw-founder-playbook-plugins/tree/main/plugins/100m-offers",
+  "repository": "https://github.com/salemaziel/vdw-founder-playbook-plugins",
+  "license": "MIT",
+  "keywords": [
+    "founder",
+    "business",
+    "100m-offers"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "$100M Offers",
+    "shortDescription": "Designs irresistible Grand Slam Offers using Alex Hormozi's value equation, obstacle-solution mapping, value-cost trim/stack, and offer-naming patterns. Use wh…",
+    "longDescription": "Designs irresistible Grand Slam Offers using Alex Hormozi's value equation, obstacle-solution mapping, value-cost trim/stack, and offer-naming patterns. Use when fixing low conversion rates, packaging products, pricing services, designing high-converting offers, or when prospects browse but don't buy. Covers value stacking, guarantees, scarcity, urgency, and pricing psychology for validated markets.",
+    "developerName": "Via Del Web",
+    "category": "Business",
+    "capabilities": [
+      "Interactive"
+    ],
+    "defaultPrompt": [
+      "Use $100M Offers to help with my startup.",
+      "Apply $100M Offers to this business problem."
+    ]
+  }
+}

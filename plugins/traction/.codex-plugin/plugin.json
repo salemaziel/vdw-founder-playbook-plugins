@@ -1,0 +1,33 @@
+{
+  "name": "traction",
+  "version": "0.1.0",
+  "description": "Applies the Bullseye Framework from Traction by Gabriel Weinberg and Justin Mares. Use when choosing growth channels, testing customer acquisition strategies, or deciding where to spend marketing effort. Covers all 19 traction channels with selection methodology, testing protocol, and phase-matched channel advice. Triggers include 'how do we get customers', 'which marketing channel should we use', 'we have a product but no users', 'our growth has stalled', 'should we do content marketing or paid ads', 'how do we test traction channels', 'what channels work at our stage'. NOT for product development (use Lean Startup), not for positioning/messaging (use Obviously Awesome), not for pricing (use Monetizing Innovation), not for enterprise sales methodology (use SPIN Selling).",
+  "author": {
+    "name": "Via Del Web",
+    "email": "claude@viadelweb.cloud",
+    "url": "https://github.com/salemaziel"
+  },
+  "homepage": "https://github.com/salemaziel/vdw-founder-playbook-plugins/tree/main/plugins/traction",
+  "repository": "https://github.com/salemaziel/vdw-founder-playbook-plugins",
+  "license": "MIT",
+  "keywords": [
+    "founder",
+    "business",
+    "traction"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Traction",
+    "shortDescription": "Applies the Bullseye Framework from Traction by Gabriel Weinberg and Justin Mares. Use when choosing growth channels, testing customer acquisition strategies,…",
+    "longDescription": "Applies the Bullseye Framework from Traction by Gabriel Weinberg and Justin Mares. Use when choosing growth channels, testing customer acquisition strategies, or deciding where to spend marketing effort. Covers all 19 traction channels with selection methodology, testing protocol, and phase-matched channel advice. Triggers include 'how do we get customers', 'which marketing channel should we use', 'we have a product but no users', 'our growth has stalled', 'should we do content marketing or paid ads', 'how do we test traction channels', 'what channels work at our stage'. NOT for product development (use Lean Startup), not for positioning/messaging (use Obviously Awesome), not for pricing (use Monetizing Innovation), not for enterprise sales methodology (use SPIN Selling).",
+    "developerName": "Via Del Web",
+    "category": "Business",
+    "capabilities": [
+      "Interactive"
+    ],
+    "defaultPrompt": [
+      "Use Traction to help with my startup.",
+      "Apply Traction to this business problem."
+    ]
+  }
+}

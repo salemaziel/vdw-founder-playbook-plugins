@@ -1,0 +1,33 @@
+{
+  "name": "lean-startup",
+  "version": "0.1.0",
+  "description": "Applies Eric Ries's Lean Startup methodology for building products under extreme uncertainty. Use when iterating toward product/market fit, designing MVPs, deciding whether to pivot or persevere, setting up actionable metrics, or accelerating the Build-Measure-Learn loop. Triggers include 'how do we test this idea fast', 'what should our MVP look like', 'our metrics look good but we're not growing', 'should we pivot', 'we're building features no one uses', 'how do we measure validated learning', 'vanity metrics vs real metrics', 'how to do innovation accounting'. NOT for companies with proven product/market fit scaling a known playbook (use Crossing the Chasm), not for determining Market Type (use Four Steps), not for sales methodology (use SPIN Selling), not for pricing strategy (use Monetizing Innovation).",
+  "author": {
+    "name": "Via Del Web",
+    "email": "claude@viadelweb.cloud",
+    "url": "https://github.com/salemaziel"
+  },
+  "homepage": "https://github.com/salemaziel/vdw-founder-playbook-plugins/tree/main/plugins/lean-startup",
+  "repository": "https://github.com/salemaziel/vdw-founder-playbook-plugins",
+  "license": "MIT",
+  "keywords": [
+    "founder",
+    "business",
+    "lean-startup"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "The Lean Startup",
+    "shortDescription": "Applies Eric Ries's Lean Startup methodology for building products under extreme uncertainty. Use when iterating toward product/market fit, designing MVPs, dec…",
+    "longDescription": "Applies Eric Ries's Lean Startup methodology for building products under extreme uncertainty. Use when iterating toward product/market fit, designing MVPs, deciding whether to pivot or persevere, setting up actionable metrics, or accelerating the Build-Measure-Learn loop. Triggers include 'how do we test this idea fast', 'what should our MVP look like', 'our metrics look good but we're not growing', 'should we pivot', 'we're building features no one uses', 'how do we measure validated learning', 'vanity metrics vs real metrics', 'how to do innovation accounting'. NOT for companies with proven product/market fit scaling a known playbook (use Crossing the Chasm), not for determining Market Type (use Four Steps), not for sales methodology (use SPIN Selling), not for pricing strategy (use Monetizing Innovation).",
+    "developerName": "Via Del Web",
+    "category": "Business",
+    "capabilities": [
+      "Interactive"
+    ],
+    "defaultPrompt": [
+      "Use The Lean Startup to help with my startup.",
+      "Apply The Lean Startup to this business problem."
+    ]
+  }
+}

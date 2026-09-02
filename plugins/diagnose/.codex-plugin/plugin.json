@@ -1,0 +1,33 @@
+{
+  "name": "diagnose",
+  "version": "0.1.0",
+  "description": "Startup diagnostic router. Use FIRST when a founder doesn't know where to start, has multiple overlapping problems, or asks a vague question like 'what's wrong with my startup', 'why aren't people buying', 'what should I focus on', 'where do I even begin', 'nothing is working'. Routes to the right framework from the 15 available skills — or tells you when no framework fits and you just need to go talk to people. This is the entry point. Use it before reaching for any specific skill.",
+  "author": {
+    "name": "Via Del Web",
+    "email": "claude@viadelweb.cloud",
+    "url": "https://github.com/salemaziel"
+  },
+  "homepage": "https://github.com/salemaziel/vdw-founder-playbook-plugins/tree/main/plugins/diagnose",
+  "repository": "https://github.com/salemaziel/vdw-founder-playbook-plugins",
+  "license": "MIT",
+  "keywords": [
+    "founder",
+    "business",
+    "diagnose"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Founder Diagnose",
+    "shortDescription": "Startup diagnostic router. Use FIRST when a founder doesn't know where to start, has multiple overlapping problems, or asks a vague question like 'what's wrong…",
+    "longDescription": "Startup diagnostic router. Use FIRST when a founder doesn't know where to start, has multiple overlapping problems, or asks a vague question like 'what's wrong with my startup', 'why aren't people buying', 'what should I focus on', 'where do I even begin', 'nothing is working'. Routes to the right framework from the 15 available skills — or tells you when no framework fits and you just need to go talk to people. This is the entry point. Use it before reaching for any specific skill.",
+    "developerName": "Via Del Web",
+    "category": "Business",
+    "capabilities": [
+      "Interactive"
+    ],
+    "defaultPrompt": [
+      "Use Founder Diagnose to help with my startup.",
+      "Apply Founder Diagnose to this business problem."
+    ]
+  }
+}

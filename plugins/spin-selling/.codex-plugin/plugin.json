@@ -1,0 +1,33 @@
+{
+  "name": "spin-selling",
+  "version": "0.1.0",
+  "description": "Applies Neil Rackham's SPIN methodology (Situation/Problem/Implication/Need-payoff questions) to major B2B sales. Use for complex multi-call sales cycles, enterprise deals where the customer must justify the decision to others, when objections are mounting, when calls end in vague continuations instead of advances, when traditional closing techniques are backfiring on large deals, or when designing discovery-call structure. Triggers include 'my deal isn't closing', 'too many objections', 'B2B sales coaching', 'discovery call structure', 'stuck in the middle of the sale'. Not for transactional sub-$50 sales, pure consumer impulse, or PLG self-serve products.",
+  "author": {
+    "name": "Via Del Web",
+    "email": "claude@viadelweb.cloud",
+    "url": "https://github.com/salemaziel"
+  },
+  "homepage": "https://github.com/salemaziel/vdw-founder-playbook-plugins/tree/main/plugins/spin-selling",
+  "repository": "https://github.com/salemaziel/vdw-founder-playbook-plugins",
+  "license": "MIT",
+  "keywords": [
+    "founder",
+    "business",
+    "spin-selling"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "SPIN Selling",
+    "shortDescription": "Applies Neil Rackham's SPIN methodology (Situation/Problem/Implication/Need-payoff questions) to major B2B sales. Use for complex multi-call sales cycles, ente…",
+    "longDescription": "Applies Neil Rackham's SPIN methodology (Situation/Problem/Implication/Need-payoff questions) to major B2B sales. Use for complex multi-call sales cycles, enterprise deals where the customer must justify the decision to others, when objections are mounting, when calls end in vague continuations instead of advances, when traditional closing techniques are backfiring on large deals, or when designing discovery-call structure. Triggers include 'my deal isn't closing', 'too many objections', 'B2B sales coaching', 'discovery call structure', 'stuck in the middle of the sale'. Not for transactional sub-$50 sales, pure consumer impulse, or PLG self-serve products.",
+    "developerName": "Via Del Web",
+    "category": "Business",
+    "capabilities": [
+      "Interactive"
+    ],
+    "defaultPrompt": [
+      "Use SPIN Selling to help with my startup.",
+      "Apply SPIN Selling to this business problem."
+    ]
+  }
+}

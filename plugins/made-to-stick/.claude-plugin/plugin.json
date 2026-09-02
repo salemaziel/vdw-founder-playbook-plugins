@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "made-to-stick",
+  "displayName": "Made to Stick",
+  "version": "0.1.0",
+  "description": "Applies the SUCCESs Framework from Made to Stick by Chip Heath and Dan Heath. Use when crafting messages that need to be remembered, writing pitches, creating presentations, designing training materials, telling stories that drive action, or diagnosing why a message isn't landing. The six principles (Simple, Unexpected, Concrete, Credible, Emotional, Stories) diagnose and fix communication failures. Triggers include 'how do I make this memorable', 'my pitch isn't landing', 'people forget what we told them', 'how do I tell a better story', 'our training materials are boring', 'how do I present data compellingly', 'nobody remembers our message', 'how do I get people to care about this', 'my writing is too abstract'. NOT for channel selection (use Traction), not for brand messaging structure (use StoryBrand), not for positioning (use Obviously Awesome).",
+  "author": {
+    "name": "Via Del Web",
+    "email": "claude@viadelweb.cloud"
+  },
+  "homepage": "https://github.com/salemaziel/vdw-founder-playbook-plugins/tree/main/plugins/made-to-stick",
+  "repository": "https://github.com/salemaziel/vdw-founder-playbook-plugins",
+  "license": "MIT",
+  "keywords": [
+    "founder",
+    "business",
+    "made-to-stick"
+  ]
+}

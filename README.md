@@ -2,9 +2,58 @@
   <img src="covers/banner.png" alt="Founder Playbook - 15 Business Books Distilled into AI Skills" width="100%">
 </p>
 
-# Founder Playbook
+# VDW Founder Playbook Plugins
 
-15 proven business books, distilled into structured AI skills that any LLM can use. Each skill captures the frameworks, decision trees, case studies, and templates from a single book - the stuff that actually matters, without the 300 pages of anecdotes.
+The Founder Playbook packaged as 16 independently installable native plugins for Claude Code and Codex CLI: 15 proven business books plus the `diagnose` routing skill.
+
+This repository is a maintained Via Del Web fork of [AgentSeal's Founder Playbook](https://github.com/getagentseal/founder-playbook). The original skill directories remain intact for upstream synchronization, while `scripts/generate_plugins.py` produces the installable plugin tree under `plugins/`.
+
+## Native Plugin Marketplace
+
+The marketplace is named `vdw-founder-playbook`. Every plugin has the same name as its skill and includes both `.claude-plugin/plugin.json` and `.codex-plugin/plugin.json` manifests.
+
+### Claude Code
+
+```bash
+claude plugin marketplace add salemaziel/vdw-founder-playbook-plugins
+claude plugin install diagnose@vdw-founder-playbook
+claude plugin install mom-test@vdw-founder-playbook
+```
+
+### Codex CLI
+
+```bash
+codex plugin marketplace add salemaziel/vdw-founder-playbook-plugins
+codex plugin add diagnose@vdw-founder-playbook
+codex plugin add mom-test@vdw-founder-playbook
+```
+
+Replace the example plugin name with any skill listed below. Install `diagnose` together with the book-specific plugins if you want it to route broad founder questions across the full playbook.
+
+### Repository layout
+
+```text
+.claude-plugin/marketplace.json       Claude Code marketplace
+.agents/plugins/marketplace.json      Codex CLI marketplace
+plugins/<name>/                       Generated native plugin
+  .claude-plugin/plugin.json
+  .codex-plugin/plugin.json
+  skills/<name>/                      Complete generated skill copy
+scripts/generate_plugins.py           Source-to-plugin generator
+<name>/                               Upstream-compatible source skill
+```
+
+Regenerate and verify the plugin tree after changing a source skill:
+
+```bash
+python3 scripts/generate_plugins.py
+python3 scripts/generate_plugins.py --check
+python3 -m unittest discover -s tests -v
+```
+
+## Original skill collection
+
+Each skill captures the frameworks, decision trees, case studies, and templates from a single book—the material that matters without the surrounding anecdotes.
 
 ```bash
 npx skills add getagentseal/founder-playbook
@@ -47,7 +96,7 @@ Each skill also includes an honest scope section: what the book got right, what'
 
 ## How to Use
 
-### Quick Install
+### Legacy skills installer
 
 ```bash
 npx skills add getagentseal/founder-playbook

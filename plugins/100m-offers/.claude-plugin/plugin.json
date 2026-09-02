@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "100m-offers",
+  "displayName": "$100M Offers",
+  "version": "0.1.0",
+  "description": "Designs irresistible Grand Slam Offers using Alex Hormozi's value equation, obstacle-solution mapping, value-cost trim/stack, and offer-naming patterns. Use when fixing low conversion rates, packaging products, pricing services, designing high-converting offers, or when prospects browse but don't buy. Covers value stacking, guarantees, scarcity, urgency, and pricing psychology for validated markets.",
+  "author": {
+    "name": "Via Del Web",
+    "email": "claude@viadelweb.cloud"
+  },
+  "homepage": "https://github.com/salemaziel/vdw-founder-playbook-plugins/tree/main/plugins/100m-offers",
+  "repository": "https://github.com/salemaziel/vdw-founder-playbook-plugins",
+  "license": "MIT",
+  "keywords": [
+    "founder",
+    "business",
+    "100m-offers"
+  ]
+}
