@@ -4,7 +4,7 @@
 
 # VDW Founder Playbook Plugins
 
-The Founder Playbook packaged as 16 independently installable native plugins for Claude Code and Codex CLI: 15 proven business books plus the `diagnose` routing skill.
+The Founder Playbook packaged as 16 independently installable native plugins for Claude Code and Codex CLI, plus a native Hermes Agent skill bundle: 15 proven business books and the `diagnose` routing skill.
 
 This repository is a maintained Via Del Web fork of [AgentSeal's Founder Playbook](https://github.com/getagentseal/founder-playbook). The original skill directories remain intact for upstream synchronization, while `scripts/generate_plugins.py` produces the installable plugin tree under `plugins/`.
 
@@ -30,11 +30,26 @@ codex plugin add mom-test@vdw-founder-playbook
 
 Replace the example plugin name with any skill listed below. Install `diagnose` together with the book-specific plugins if you want it to route broad founder questions across the full playbook.
 
+### Hermes Agent
+
+Add the repository as a Hermes skill source, then search or install any skill in the bundle:
+
+```bash
+hermes skills tap add salemaziel/vdw-founder-playbook-plugins
+hermes skills search founder --source github
+hermes skills install salemaziel/vdw-founder-playbook-plugins/skills/diagnose
+hermes skills install salemaziel/vdw-founder-playbook-plugins/skills/mom-test
+```
+
+Every skill is installed independently into `~/.hermes/skills/` and becomes available as its same-named slash command in the next Hermes session. Replace the example name with any skill listed below.
+
 ### Repository layout
 
 ```text
 .claude-plugin/marketplace.json       Claude Code marketplace
 .agents/plugins/marketplace.json      Codex CLI marketplace
+skills.sh.json                        Hermes Agent bundle grouping
+skills/<name>/                        Generated Hermes Agent skill
 plugins/<name>/                       Generated native plugin
   .claude-plugin/plugin.json
   .codex-plugin/plugin.json

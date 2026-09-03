@@ -54,6 +54,29 @@ class GeneratedPluginTests(unittest.TestCase):
             )
             self.assertEqual(codex_entry["category"], "Business")
 
+    def test_hermes_bundle_has_all_grouped_skills(self) -> None:
+        grouping = json.loads((ROOT / "skills.sh.json").read_text())
+        self.assertEqual(
+            grouping,
+            {
+                "groupings": [
+                    {
+                        "title": "VDW Founder Playbook",
+                        "skills": GENERATOR.SKILLS,
+                    }
+                ]
+            },
+        )
+        self.assertEqual(
+            {path.name for path in (ROOT / "skills").iterdir() if path.is_dir()},
+            set(GENERATOR.SKILLS),
+        )
+        for name in GENERATOR.SKILLS:
+            self.assertEqual(
+                GENERATOR.tree_signature(ROOT / name),
+                GENERATOR.tree_signature(ROOT / "skills" / name),
+            )
+
     def test_plugin_manifests_match_directory_and_skill_names(self) -> None:
         for name in GENERATOR.SKILLS:
             plugin_root = ROOT / "plugins" / name

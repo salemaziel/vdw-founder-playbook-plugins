@@ -1,2 +1,3 @@
 # Generated skill mirrors preserve upstream Markdown bytes, including hard breaks.
 /plugins/**/skills/**/*.md whitespace=-trailing-space
+/skills/**/*.md whitespace=-trailing-space

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate Claude Code and Codex CLI plugins from the upstream skill folders."""
+"""Generate native plugin and Hermes skill bundles from upstream skill folders."""
 
 from __future__ import annotations
 
@@ -13,6 +13,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 PLUGINS_DIR = ROOT / "plugins"
+HERMES_SKILLS_DIR = ROOT / "skills"
 VERSION = "0.1.0"
 REPOSITORY = "https://github.com/salemaziel/vdw-founder-playbook-plugins"
 MARKETPLACE_NAME = "vdw-founder-playbook"
@@ -183,6 +184,17 @@ def codex_marketplace(metadata: dict[str, dict[str, str]]) -> dict[str, object]:
     }
 
 
+def hermes_groupings() -> dict[str, object]:
+    return {
+        "groupings": [
+            {
+                "title": "VDW Founder Playbook",
+                "skills": SKILLS,
+            }
+        ]
+    }
+
+
 def write_json(path: Path, payload: dict[str, object]) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(
@@ -197,6 +209,7 @@ def expected_payloads(
     payloads: dict[Path, dict[str, object]] = {
         ROOT / ".claude-plugin" / "marketplace.json": claude_marketplace(metadata),
         ROOT / ".agents" / "plugins" / "marketplace.json": codex_marketplace(metadata),
+        ROOT / "skills.sh.json": hermes_groupings(),
     }
     for name in SKILLS:
         description = metadata[name]["description"]
@@ -234,6 +247,17 @@ def check_generated(metadata: dict[str, dict[str, str]]) -> list[str]:
             f"expected={sorted(expected_names)} actual={sorted(actual_names)}"
         )
 
+    actual_hermes_names = (
+        {path.name for path in HERMES_SKILLS_DIR.iterdir() if path.is_dir()}
+        if HERMES_SKILLS_DIR.is_dir()
+        else set()
+    )
+    if actual_hermes_names != expected_names:
+        errors.append(
+            "Hermes skill directory set differs: "
+            f"expected={sorted(expected_names)} actual={sorted(actual_hermes_names)}"
+        )
+
     for path, expected in expected_payloads(metadata).items():
         if not path.is_file():
             errors.append(f"missing generated JSON: {path.relative_to(ROOT)}")
@@ -248,22 +272,30 @@ def check_generated(metadata: dict[str, dict[str, str]]) -> list[str]:
 
     for name in SKILLS:
         source = ROOT / name
-        generated = PLUGINS_DIR / name / "skills" / name
-        if tree_signature(source) != tree_signature(generated):
+        generated_plugin = PLUGINS_DIR / name / "skills" / name
+        generated_hermes = HERMES_SKILLS_DIR / name
+        if tree_signature(source) != tree_signature(generated_plugin):
             errors.append(f"generated skill drift: plugins/{name}/skills/{name}")
+        if tree_signature(source) != tree_signature(generated_hermes):
+            errors.append(f"generated Hermes skill drift: skills/{name}")
     return errors
 
 
 def generate(metadata: dict[str, dict[str, str]]) -> None:
     PLUGINS_DIR.mkdir(parents=True, exist_ok=True)
+    HERMES_SKILLS_DIR.mkdir(parents=True, exist_ok=True)
     for name in SKILLS:
         source = ROOT / name
         plugin_root = PLUGINS_DIR / name
-        generated_skill = plugin_root / "skills" / name
-        if generated_skill.exists():
-            shutil.rmtree(generated_skill)
-        generated_skill.parent.mkdir(parents=True, exist_ok=True)
-        shutil.copytree(source, generated_skill)
+        generated_targets = [
+            plugin_root / "skills" / name,
+            HERMES_SKILLS_DIR / name,
+        ]
+        for generated_skill in generated_targets:
+            if generated_skill.exists():
+                shutil.rmtree(generated_skill)
+            generated_skill.parent.mkdir(parents=True, exist_ok=True)
+            shutil.copytree(source, generated_skill)
 
     for path, payload in expected_payloads(metadata).items():
         write_json(path, payload)
@@ -290,11 +322,17 @@ def main() -> int:
             for error in errors:
                 print(f"ERROR: {error}", file=sys.stderr)
             return 1
-        print(f"Generated plugin tree is current ({len(SKILLS)} plugins).")
+        print(
+            "Generated plugin and Hermes skill trees are current "
+            f"({len(SKILLS)} skills)."
+        )
         return 0
 
     generate(metadata)
-    print(f"Generated {len(SKILLS)} Claude Code and Codex CLI plugins.")
+    print(
+        f"Generated {len(SKILLS)} Claude Code/Codex CLI plugins "
+        "and Hermes Agent skills."
+    )
     return 0
 
 
